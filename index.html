@@ -47,13 +47,14 @@
 
     <main>
 
-        <section id="presentacion" class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
+        <section id="presentacion" class="container-fluid">
+          <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
             <div class="row flex-lg-row align-items-center g-5 py-5 my-5">
                 
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Abigail Castillo
+                <div class="col-lg-9">
+                    <h1 class="display-5 fw-bold text-white text-shadow-1 mb-3">Abigail Castillo
                     </h1>
-                    <p class="lead">¡Hola! <br> Soy una apasionada por el diseño gráfico pero con un particular interés por el diseño UX/UI,
+                    <p class="lead text-shadow-1 text-white">¡Hola! <br> Soy una apasionada por el diseño gráfico pero con un particular interés por el diseño UX/UI,
                     disfruto el crear líneas gráficas nuevas para los proyectos que llegan a mis manos ya que siento que es como darles su propia
                     personalidad, crear nuevas ideas a partir de pequeños datos y llevarlos a una forma gráfica me encanta.
                     Trabajar en equipo me ayuda a enriquecer mis ideas con las de otros pero el trabajo en solitario también es una gran oportunidad
@@ -65,6 +66,7 @@
                     </div>
                 </div>
             </div>
+          </div>
         </section>
 
         <section id="habilidades" class="container px-4 py-5">
@@ -131,28 +133,10 @@
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('unsplash-photo-1.jpg');">
+                    <div  id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg .imagen-proyecto">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Reach Goals</h3>
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>Earth</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>3d</small>
-                                </li>
-                            </ul>
+                            
                         </div>
                     </div>
                 </div>
@@ -215,7 +199,7 @@
 
 
         <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div id="myCarousel"  data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
                         aria-label="Slide 1"></button>
@@ -225,46 +209,40 @@
                         class=""></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
+                        <article class="container py-5 text-center px-5">
+                            
+                                <img class="rounded-5" src="assets/ada.jpeg" height="300" alt="Ada Lovelace">
+                                <h3>Ada Lovelace</h3>
+                                <p>Trabajar con Malinali B. ha sido una experiencia extraordinaria. Su dedicación y habilidad para investigar y sintetizar información compleja sobre las costumbres de Yucatán fueron impresionantes. Malinali se comunica de manera efectiva y trabaja en equipo con una actitud siempre colaborativa y positiva. Su atención al detalle y su compromiso con la excelencia son dignos de admiración. Recomiendo a Malinali para cualquier proyecto que requiera investigación detallada y trabajo en equipo.</p>
+                            
+                        </article>
                     </div>
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                            </div>
-                        </div>
+
+
+                    <div class="carousel-item ">
+                        <article class="container py-5 text-center px-5">
+                            
+                                <img class="rounded-5" src="assets/ada.jpeg" height="300" alt="Ada Lovelace">
+                                <h3>Ada Lovelace</h3>
+                                <p>Trabajar con Malinali B. ha sido una experiencia extraordinaria. Su dedicación y habilidad para investigar y sintetizar información compleja sobre las costumbres de Yucatán fueron impresionantes. Malinali se comunica de manera efectiva y trabaja en equipo con una actitud siempre colaborativa y positiva. Su atención al detalle y su compromiso con la excelencia son dignos de admiración. Recomiendo a Malinali para cualquier proyecto que requiera investigación detallada y trabajo en equipo.</p>
+                            
+                        </article>
                     </div>
+
+
+                    <div class="carousel-item ">
+                        <article class="container py-5 text-center px-5">
+                            
+                                <img class="rounded-5" src="assets/ada.jpeg" height="300" alt="Ada Lovelace">
+                                <h3>Ada Lovelace</h3>
+                                <p>Trabajar con Malinali B. ha sido una experiencia extraordinaria. Su dedicación y habilidad para investigar y sintetizar información compleja sobre las costumbres de Yucatán fueron impresionantes. Malinali se comunica de manera efectiva y trabaja en equipo con una actitud siempre colaborativa y positiva. Su atención al detalle y su compromiso con la excelencia son dignos de admiración. Recomiendo a Malinali para cualquier proyecto que requiera investigación detallada y trabajo en equipo.</p>
+                            
+                        </article>
+                    </div>
+                   
+                    
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -275,6 +253,17 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+
+
+
+
+
+            <!--ósea en el testimonio pondremos la foto del que nos dio el comentario?
+
+                   Litzi Sanchez 7:33 PM
+                   [Tu nombre] ha demostrado ser una alumna responsable y muy creativa durante el curso. Su interes por aprender la motiva a mejorar con cada proyecto que realiza.
+                   Litzi Sánchez.
+                   Mentora Técnica en Tecnolochicas.-->
 
         </section>
 

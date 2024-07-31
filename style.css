@@ -1,5 +1,12 @@
 #presentacion {
-    height: 88vh;
+        min-height: 88vh;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        background-image: url("assets/fondo.webp");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
 }
 
@@ -14,3 +21,21 @@
     text-decoration: none;
 
 }
+
+
+#proyecto-1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1UUfkvARqRDQHAHFWKuGNVUv03vxZ9kTsRA&s');
+}
+
+.imagen-proyecto {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.text-shadow-1 {
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+
+
+
