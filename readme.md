@@ -20,4 +20,4 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 * Bootstrap
 * Javascript
 ---
-Desarrollado con 💜 por [Abigail Castillo](https://www.behance.net/abigail_dsign) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/).
+Desarrollado con 💜 por [Abigail Castillo](https://www.linkedin.com/in/abigail-castillo-dsign/) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/).
